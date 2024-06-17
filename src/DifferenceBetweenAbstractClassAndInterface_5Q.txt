@@ -1,0 +1,43 @@
+public class DifferenceBetweenAbstractClassAndInterface_5Q {
+    String Text = 
+    "The differences are:\r\n" + //
+                "-\r\n" + //
+                "Abstract class can have both abstract and concrete methods but interface can only have abstract methods (Java 8 onwards, it can have default and static methods as well)\r\n" + //
+                "-\r\n" + //
+                "Abstract class methods can have access modifiers other than public but interface methods are implicitly public and abstract\r\n" + //
+                "-\r\n" + //
+                "Abstract class can have final, non-final, static and non-static variables but interface variables are only static and final\r\n" + //
+                "-\r\n" + //
+                "A subclass can extend only one abstract class but it can implement multiple interfaces\r\n" + //
+                "-\r\n" + //
+                "An Abstract class can extend one other class and can implement multiple interfaces but an interface can only extend other interfaces"
+    ;   
+
+    String ChatGPT_Resp = 
+    "Abstract Class\n" + //
+                "Definition:\n" + //
+                "\n" + //
+                "An abstract class is a class that cannot be instantiated on its own. It can have abstract methods (methods without a body) as well as concrete methods (methods with a body).\n" + //
+                "Abstract classes can also have instance variables (fields).\n" + //
+                "Purpose:\n" + //
+                "\n" + //
+                "Abstract classes are used when you want to provide a common base implementation for a group of related classes.\n" + //
+                "They can define some methods and leave others to be implemented by subclasses.\n" + //
+                "Usage:\n" + //
+                "\n" + //
+                "To declare an abstract class, use the abstract keyword before the class name.\n" + //
+                "Abstract classes can have constructors, which are invoked when a subclass object is created
+                
+    Interface Definition:
+                
+                An interface in Java is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types.
+                Interfaces cannot contain instance fields.
+                Purpose:
+                
+                Interfaces define a contract for what a class can do, without specifying how it does it. They are used to achieve abstraction and multiple inheritance in Java.
+                Usage:
+                                                            
+                To declare an interface, use the interface keyword followed by the interface name.
+                Classes implement interfaces using the implements keyword, and they must provide implementation for all methods declared in the interface."
+    ;
+}
